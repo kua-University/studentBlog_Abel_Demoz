@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp" />
+
+
+    <!-- Year Completed University -->
+    <EditText
+        android:id="@+id/etYearCompleted"
+        android:layout_width="377dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Year Completed University"
+        android:inputType="number" />
+
+    <!-- Current Occupation -->
+    <EditText
+        android:id="@+id/etOccupation"
+        android:layout_width="378dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Current Occupation"
+        android:inputType="text" />
+
+    <!-- Bio -->
+
+    <!-- Save/Update Button -->
+    <EditText
+        android:id="@+id/etBio"
+        android:layout_width="366dp"
+        android:layout_height="322dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:hint="Bio"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/btnSaveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Profile"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/white"/>
+
+    <!-- Edit Profile Button -->
+    <Button
+        android:id="@+id/btnEditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/white"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

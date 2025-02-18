@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Article Headline -->
+    <TextView
+        android:id="@+id/headlineTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Article Headline"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/fullArticleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Full article content goes here..."
+            android:textSize="18sp" />
+    </ScrollView>
+
+    <!-- Author and Date -->
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="By Author"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Date"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

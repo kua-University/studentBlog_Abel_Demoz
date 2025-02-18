@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:padding="16dp">
+
+        <!-- Menu Icon -->
+        <ImageView
+            android:id="@+id/icMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_menu"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Menu" />
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Search Icon -->
+        <ImageView
+            android:id="@+id/ic_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="Search" />
+    </LinearLayout>
+
+    <!-- Middle Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Four Boxes -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <!-- Box 1 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="8dp">
+
+                    <!-- Image for Box 1 -->
+                    <ImageView
+                        android:id="@+id/ivBox1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/scholar"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Box 1 Image" />
+
+                    <!-- Text for Box 1 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="scholar"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:layout_marginTop="8dp"/>
+                    <ImageView
+                        android:id="@+id/ic_scholar"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_next" />
+                </LinearLayout>
+
+                <!-- Box 2 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="8dp">
+
+                    <!-- Image for Box 2 -->
+                    <ImageView
+                        android:id="@+id/ivBox2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/expe"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Box 2 Image" />
+
+                    <!-- Text for Box 2 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="experience"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:layout_marginTop="8dp"/>
+                    <ImageView
+                        android:id="@+id/ic_experience"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_next" />
+                </LinearLayout>
+
+                <!-- Box 3 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="8dp">
+
+                    <!-- Image for Box 3 -->
+                    <ImageView
+                        android:id="@+id/ivBox3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/enterp"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Box 3 Image" />
+
+                    <!-- Text for Box 3 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Enterpren"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:layout_marginTop="8dp"/>
+                    <ImageView
+                        android:id="@+id/ic_enterpreneurship"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_next" />
+                </LinearLayout>
+
+                <!-- Box 4 -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="8dp">
+
+                    <!-- Image for Box 4 -->
+                    <ImageView
+                        android:id="@+id/ivBox4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/login"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="Box 4 Image" />
+
+                    <!-- Text for Box 4 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Campus"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:layout_marginTop="8dp"/>
+                    <ImageView
+                        android:id="@+id/ic_life"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_next" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="8dp">
+
+                    <!-- Image for Box 1 -->
+                    <ImageView
+                        android:id="@+id/ivBox5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/resear"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Box 5 Image" />
+
+                    <!-- Text for Box 1 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Research"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:layout_marginTop="8dp"/>
+                    <ImageView
+                        android:id="@+id/ic_research"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_next" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="8dp">
+                    <!-- Image for Box 1 -->
+                    <ImageView
+                        android:id="@+id/ic_fundrise"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/mentorship"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Box 6 Image" />
+                    <!-- Text for Box 1 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MentorShip"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:layout_marginTop="8dp"/>
+                    <ImageView
+                        android:id="@+id/ic_mentorship"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_next" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_margin="8dp">
+                    <!-- Image for Box 1 -->
+                    <ImageView
+                        android:id="@+id/ic_donate"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/donate"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Box 6 Image" />
+                    <!-- Text for Box 1 -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Donation"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp"
+                        android:layout_marginTop="8dp"/>
+                    <ImageView
+                        android:id="@+id/ic_donation"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_next" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- ImageView for the image -->
+                <ImageView
+                    android:id="@+id/ic_mu"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mku" />
+
+                <!-- TextView for the headline -->
+                <TextView
+                    android:id="@+id/headline"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mekelle University"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="8dp" />
+
+
+                <!-- TextView for the descriptive text -->
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arid Blog provides a valuable platform for students, faculty, and alumni to connect, share experiences, and access resources we strive to maintain strong connections with our esteemed alumni community. This form serves as a platform to keep in touch with our graduates, gather valuable feedback, and facilitate networking opportunities "
+                    android:textSize="16sp"
+                    android:lineSpacingExtra="4dp"
+                    android:paddingBottom="16dp" />
+
+            </LinearLayout>
+    </LinearLayout>
+
+    <!-- Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:weightSum="4">
+
+        <!-- Home Icon -->
+        <ImageView
+            android:id="@+id/icHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_home"
+            android:contentDescription="Home"
+            android:layout_gravity="center"/>
+
+        <!-- Bookmark Icon -->
+        <ImageView
+            android:id="@+id/icBookmark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_bookmark"
+            android:contentDescription="Bookmark"
+            android:layout_gravity="center"/>
+
+        <!-- User Icon -->
+        <ImageView
+            android:id="@+id/icUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_profile"
+            android:contentDescription="User"
+            android:layout_gravity="center"/>
+
+        <!-- Add Icon -->
+        <ImageView
+            android:id="@+id/icAdd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_add"
+            android:contentDescription="Add"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</LinearLayout>

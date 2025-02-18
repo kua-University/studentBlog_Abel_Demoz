@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930352074612",
+    "project_id": "mublog-c2b2f",
+    "storage_bucket": "mublog-c2b2f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930352074612:android:a428b7806b6b707ba3a621",
+        "android_client_info": {
+          "package_name": "com.example.mublog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs4UoCUs7mZGWGADA9XmrdathZ-QgSgEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
